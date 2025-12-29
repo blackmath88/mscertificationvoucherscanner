@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ms_learn_deals",
+    "name": "Microsoft Learn Deals",
+    "url": "https://learn.microsoft.com/credentials/certifications/deals",
+    "type": "official",
+    "monitor": "html_diff",
+    "keywords": ["voucher", "discount", "certification", "exam"],
+    "confidence": 95,
+    "poll_hours": 12
+  },
+  {
+    "id": "virtual_training_days",
+    "name": "Microsoft Virtual Training Days",
+    "url": "https://www.microsoft.com/events/category/microsoft-virtual-training-days",
+    "type": "official",
+    "monitor": "html_diff",
+    "keywords": ["exam", "discount", "certification"],
+    "confidence": 95,
+    "poll_hours": 24
+  },
+  {
+    "id": "skills_hub_blog",
+    "name": "Microsoft Skills Hub Blog",
+    "url": "https://techcommunity.microsoft.com/category/skills-hub/blog/skills-hub-blog/rss",
+    "type": "official",
+    "monitor": "rss",
+    "keywords": ["voucher", "free exam", "skills challenge", "beta exam"],
+    "confidence": 90,
+    "poll_hours": 6
+  },
+  {
+    "id": "learn_challenges",
+    "name": "Microsoft Learn Challenges",
+    "url": "https://learn.microsoft.com/training/challenges",
+    "type": "official",
+    "monitor": "html_diff",
+    "keywords": ["challenge", "voucher", "certification"],
+    "confidence": 90,
+    "poll_hours": 12
+  },
+  {
+    "id": "ignite",
+    "name": "Microsoft Ignite",
+    "url": "https://ignite.microsoft.com",
+    "type": "official",
+    "monitor": "html_diff",
+    "keywords": ["certification", "exam", "challenge"],
+    "confidence": 85,
+    "poll_hours": 24
+  },
+  {
+    "id": "build",
+    "name": "Microsoft Build",
+    "url": "https://build.microsoft.com",
+    "type": "official",
+    "monitor": "html_diff",
+    "keywords": ["certification", "free exam"],
+    "confidence": 80,
+    "poll_hours": 24
+  }
+]
