@@ -5,8 +5,10 @@ STATE_DIR = "state"
 os.makedirs(STATE_DIR, exist_ok=True)
 
 KEYWORD_REGEX = re.compile(
-    r"(voucher|free exam|discount|certification|challenge|redeem)", re.IGNORECASE
+    r"(voucher|free exam|100%|50% off|exam discount|skills challenge|redeem)", 
+    re.IGNORECASE
 )
+
 
 def get_hash(text):
     return hashlib.sha256(text.encode()).hexdigest()
