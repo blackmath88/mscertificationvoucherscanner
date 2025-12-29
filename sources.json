@@ -9,14 +9,15 @@
     "confidence": 95,
     "poll_hours": 12
   },
-  {
-    "id": "skills_hub_blog",
-    "name": "Microsoft Skills Hub Blog",
-    "url": "https://techcommunity.microsoft.com/category/skills-hub/blog/skills-hub-blog/rss",
-    "type": "official",
-    "monitor": "rss",
-    "keywords": ["voucher", "free exam", "challenge", "discount"],
-    "confidence": 90,
-    "poll_hours": 6
+{
+  "id": "skills_hub_blog",
+  "name": "Microsoft Skills Hub Blog",
+  "url": "https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?board=SkillsHubBlog",
+  "type": "official",
+  "monitor": "rss",
+  "keywords": ["voucher", "free exam", "skills challenge", "beta exam"],
+  "confidence": 90,
+  "poll_hours": 6
+}
   }
 ]
